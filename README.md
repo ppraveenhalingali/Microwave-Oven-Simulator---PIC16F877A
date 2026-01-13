@@ -73,9 +73,10 @@ This repository contains the embedded C firmware for a **Microwave Oven Simulato
 
 ## ⌨️ Controls
 
-* **Key 1-3**: Select Cooking Mode.
-* **Key 4**: Start/Resume or Add 30 seconds.
-* 
+**Key 1-3**: Select Cooking Mode.
+
+**Key 4**: Start/Resume or Add 30 seconds.
+ 
 **Key 5**: Pause cooking (stops timer and fan).
  
 **Key 6**: Stop/Reset to main menu.

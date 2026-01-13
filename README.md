@@ -131,5 +131,3 @@ This repository contains the embedded C firmware for a **Microwave Oven Simulato
 
 ---
 
-
-### Would you like me to add a "Troubleshooting" section or a specific "Future Enhancements" list to this README?

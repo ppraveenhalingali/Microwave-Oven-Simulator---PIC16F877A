@@ -26,26 +26,13 @@ This repository contains the embedded C firmware for a **Microwave Oven Simulato
 
 
 ---
-
-## 📂 Project Structure
-
-| File | Description |
-| --- | --- |
-| **`main.c`** | Core state machine and system initialization. |
-| **`micro_oven.c`** | Logic for cooking modes (Micro, Grill, Convection, Start).
-
- |
-| **`matrix_keypad.c`** | Driver for 4x3 matrix keypad scanning and debouncing.
-
- |
-| **`clcd.c`** | Driver for 16x4 Liquid Crystal Display in 4-bit mode. |
-| **`isr.c`** | Interrupt Service Routine for the 1ms/1s timer countdown.
-
- |
-| **`timers.c`** | Initialization and configuration for Timer2. |
-
----
-
+File,Description
+main.c,Core state machine and system initialization.
+micro_oven.c,"Logic for cooking modes (Micro, Grill, Convection, Start)."
+matrix_keypad.c,Driver for 4x3 matrix keypad scanning and debouncing.
+clcd.c,Driver for 16x4 Liquid Crystal Display in 4-bit mode.
+isr.c,Interrupt Service Routine for the 1ms/1s timer countdown.
+timers.c,Initialization and configuration for Timer2.
 ## 🕹 Operation Modes
 
 ### 1. Micro Mode

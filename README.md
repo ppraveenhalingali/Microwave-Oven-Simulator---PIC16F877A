@@ -21,6 +21,7 @@ This repository contains the embedded C firmware for a **Microwave Oven Simulato
 | File | Description |
 | --- | --- |
 | **`main.c`** | Core state machine and system initialization. |
+
 | **`micro_oven.c`** | Logic for cooking modes (Micro, Grill, Convection, Start).
 
  |
@@ -90,9 +91,13 @@ This repository contains the embedded C firmware for a **Microwave Oven Simulato
 ## 🔧 Hardware Setup
 
 **Microcontroller**: PIC16F877A.
+
 **Display**: CLCD (16x4) connected to PORTD (Data) and PORTE (Control).
-**Keypad**: 4x3 Matrix Keypad connected to PORTB (Columns) and PORTD (Rows). 
+
+**Keypad**: 4x3 Matrix Keypad connected to PORTB (Columns) and PORTD (Rows).
+
 **Fan**: Connected to RC2.
+
 **Oscillator**: 20MHz crystal.
 
 ---
